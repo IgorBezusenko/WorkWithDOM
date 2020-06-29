@@ -74,3 +74,18 @@
 // console.log(mark);
 // mark.insertAdjacentHTML("beforeend", "green");
 // mark.classList.add("green");
+
+const ul = document.querySelector("ul");
+const lis = ul.querySelectorAll("li");
+console.log(lis);
+const liArr = [];
+lis.forEach((el, i) => {
+  //   el.textContent = `${i + 1}`;
+  liArr.push(el);
+});
+
+const filterLi = liArr.sort((p, n) => {
+  return p - n;
+});
+liArr.reverse();
+console.log(liArr);
