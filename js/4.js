@@ -58,3 +58,13 @@
 //   el.insertAdjacentHTML("beforeend", "<strong></strong>");
 // });
 // console.log(links);
+
+// // 5.3
+// const body = document.body;
+// const div = body.querySelector("div");
+// console.log(body);
+// const img = document.createElement("img");
+// img.setAttribute("src", "../img/logo.png");
+// img.setAttribute("alt", "img");
+// body.insertBefore(img, div);
+// console.log(img);
