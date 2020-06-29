@@ -68,3 +68,9 @@
 // img.setAttribute("alt", "img");
 // body.insertBefore(img, div);
 // console.log(img);
+
+// 5,4
+// const mark = document.querySelector("mark");
+// console.log(mark);
+// mark.insertAdjacentHTML("beforeend", "green");
+// mark.classList.add("green");
