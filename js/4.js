@@ -32,4 +32,21 @@
 // const allLink = links.forEach((el) => {
 //   el.classList.add("custom-link");
 // });
-// console.log(allLink);
+// // console.log(allLink);
+
+// 5
+// const ul = document.querySelector("ul");
+// const fragment = document.createDocumentFragment();
+
+// const lis = [
+//   `item ${ul.children.length + 1}`,
+//   `item ${ul.children.length + 2}`,
+// ];
+// lis.forEach((li) => {
+//   const item = document.createElement("li");
+//   item.classList.add("new-item");
+//   item.textContent = li;
+//   fragment.appendChild(item);
+// });
+// console.log(lis);
+// ul.appendChild(fragment);
