@@ -34,7 +34,7 @@
 // });
 // // console.log(allLink);
 
-// 5
+// 5.1
 // const ul = document.querySelector("ul");
 // const fragment = document.createDocumentFragment();
 
@@ -50,3 +50,11 @@
 // });
 // console.log(lis);
 // ul.appendChild(fragment);
+
+// 5.2
+// const ul = document.querySelector("ul");
+// const links = ul.querySelectorAll("a");
+// links.forEach((el) => {
+//   el.insertAdjacentHTML("beforeend", "<strong></strong>");
+// });
+// console.log(links);
