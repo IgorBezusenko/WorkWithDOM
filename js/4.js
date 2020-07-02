@@ -36,12 +36,10 @@
 
 // 5.1
 // const ul = document.querySelector("ul");
+// const index = ul.querySelectorAll("li");
 // const fragment = document.createDocumentFragment();
 
-// const lis = [
-//   `item ${ul.children.length + 1}`,
-//   `item ${ul.children.length + 2}`,
-// ];
+// const lis = [`item ${index.length + 1}`, `item ${index.length + 2}`];
 // lis.forEach((li) => {
 //   const item = document.createElement("li");
 //   item.classList.add("new-item");
